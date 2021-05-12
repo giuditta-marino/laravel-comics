@@ -58,5 +58,13 @@ header .jumbo {
   height: 305px;
   background-image: url("../images/jumbotron.jpg");
   background-size: cover;
-  background-position: top;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main .main-top .comic .image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 160px;
 }

@@ -46,7 +46,6 @@ header{
   .jumbo{
     height: 305px;
     background-image: url('../images/jumbotron.jpg');
-    background-size: cover;
-    background-position: top;
+    @include background-cover;
   }
 }

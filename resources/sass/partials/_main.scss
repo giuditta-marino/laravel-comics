@@ -1,0 +1,10 @@
+main{
+  .main-top{
+    .comic{
+      .image{
+        @include background-cover;
+        height: 160px;
+      }    
+    }
+  }
+}
