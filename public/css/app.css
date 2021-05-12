@@ -1,5 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: 700;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+ul.no-style {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
