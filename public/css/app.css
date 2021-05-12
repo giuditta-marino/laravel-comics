@@ -9,15 +9,54 @@ body {
   font-weight: 700;
 }
 
-.container {
-  max-width: 1000px;
-}
-
 ul.no-style {
   list-style: none;
+  margin-bottom: 0;
 }
 
 a {
   text-decoration: none;
 }
 
+header .header-top {
+  background-color: #0282f9;
+  padding: 6px 0;
+  color: #fff;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+header .header-top ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header-top ul li a {
+  color: #fff;
+}
+header .header-bottom {
+  color: #464646;
+}
+header .header-bottom .navbar {
+  display: flex;
+  align-items: center;
+}
+header .header-bottom .navbar .logo img {
+  height: 90px;
+}
+header .header-bottom .navbar ul {
+  display: flex;
+  align-items: center;
+}
+header .header-bottom .navbar ul li {
+  padding: 0 14px;
+}
+header .header-bottom .navbar ul li a {
+  color: #464646;
+  text-transform: uppercase;
+}
+header .jumbo {
+  height: 305px;
+  background-image: url("../images/jumbotron.jpg");
+  background-size: cover;
+  background-position: top;
+}
