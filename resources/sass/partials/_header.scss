@@ -38,6 +38,11 @@ header{
               color: $greytext;
               text-transform: uppercase;
             }
+            a.active{
+              color: $cyan;
+              border-bottom: 6px solid $cyan;
+              padding-bottom: 37px;
+            }
           }
       }
     }

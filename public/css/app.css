@@ -54,6 +54,11 @@ header .header-bottom .navbar ul li a {
   color: #464646;
   text-transform: uppercase;
 }
+header .header-bottom .navbar ul li a.active {
+  color: #0282f9;
+  border-bottom: 6px solid #0282f9;
+  padding-bottom: 37px;
+}
 header .jumbo {
   height: 305px;
   background-image: url("../images/jumbotron.jpg");
