@@ -45,21 +45,81 @@ main#home-main{
 main#detail{
   position: relative;
   z-index: 1;
-  color: $greytext;
-  background-color: $white;
-  .image{
+
+  .image-comic{
     position: absolute;
     left: 194px;
     top: -235px;
     border: 1px solid $white;
   }
-  .cyan-bar{
-    height: 70px;
-    background-color: $cyan;
-  }
-  .container{
-    .info-comic{
 
-    }
+  .main-top{
+    color: $greytext;
+    background-color: $white;
+
+      .cyan-bar{
+        height: 70px;
+        background-color: $cyan;
+      }
+      .container{
+        padding-top: 55px;
+
+        .info-comic{
+          h3{
+            color: $petrol;
+            font-size: 2em;
+            font-weight: 700;
+            text-transform: uppercase;
+          }
+          .green-bar{
+            @include flex-align-center;
+            background-color: $green;
+            color: $white;
+            margin-bottom: 0;
+            text-transform: uppercase;
+            border-bottom: 1px solid $bordergreen;
+
+            p{
+              color: rgba(255, 255, 255, 0.6);
+              margin-bottom: 0;
+              span{
+                color: $white;
+                font-weight: 700;
+              }
+              span#price, span#check{
+                text-transform: capitalize;
+              }
+              .caret-down{
+                font-size: 0.6em;
+              }
+            }
+
+            .flex{
+              @include flex-align-center;
+              justify-content: space-between;
+              border-right: 1px solid $bordergreen;
+              padding: 10px;
+             }
+          }
+
+          .advertisement{
+            p{
+              color: $lightgreytext;
+              margin-bottom: 3px;
+            }
+          }
+        }
+
+        .description{
+          p{
+            color: $lightgreytext;
+          }
+        }
+      }
   }
+
+  .main-bottom{
+    background-color: $lightgrey;
+  }
+
 }

@@ -121,19 +121,71 @@ main#home-main div#current-series {
 main#detail {
   position: relative;
   z-index: 1;
-  color: #464646;
-  background-color: #fff;
 }
-main#detail .image {
+main#detail .image-comic {
   position: absolute;
   left: 194px;
   top: -235px;
   border: 1px solid #fff;
 }
-main#detail .cyan-bar {
+main#detail .main-top {
+  color: #464646;
+  background-color: #fff;
+}
+main#detail .main-top .cyan-bar {
   height: 70px;
   background-color: #0282f9;
 }
+main#detail .main-top .container {
+  padding-top: 55px;
+}
+main#detail .main-top .container .info-comic h3 {
+  color: #003f5e;
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+main#detail .main-top .container .info-comic .green-bar {
+  display: flex;
+  align-items: center;
+  background-color: #55ba59;
+  color: #fff;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  border-bottom: 1px solid #357739;
+}
+main#detail .main-top .container .info-comic .green-bar p {
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 0;
+}
+main#detail .main-top .container .info-comic .green-bar p span {
+  color: #fff;
+  font-weight: 700;
+}
+main#detail .main-top .container .info-comic .green-bar p span#price, main#detail .main-top .container .info-comic .green-bar p span#check {
+  text-transform: capitalize;
+}
+main#detail .main-top .container .info-comic .green-bar p .caret-down {
+  font-size: 0.6em;
+}
+main#detail .main-top .container .info-comic .green-bar .flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-right: 1px solid #357739;
+  padding: 10px;
+}
+main#detail .main-top .container .info-comic .advertisement p {
+  color: #959595;
+  margin-bottom: 3px;
+}
+main#detail .main-top .container .description p {
+  color: #959595;
+}
+main#detail .main-bottom {
+  background-color: #f6f6f6;
+}
+
 footer p {
   margin-bottom: 0;
 }
