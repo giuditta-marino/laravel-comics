@@ -41,3 +41,25 @@ main#home-main{
     padding: 6px;
   }
 }
+
+main#detail{
+  position: relative;
+  z-index: 1;
+  color: $greytext;
+  background-color: $white;
+  .image{
+    position: absolute;
+    left: 194px;
+    top: -235px;
+    border: 1px solid $white;
+  }
+  .cyan-bar{
+    height: 70px;
+    background-color: $cyan;
+  }
+  .container{
+    .info-comic{
+
+    }
+  }
+}

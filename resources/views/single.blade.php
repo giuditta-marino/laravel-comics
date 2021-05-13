@@ -9,8 +9,10 @@
     <div class="image">
       <img src="{{$comic['thumb']}}" alt="">
     </div>
+    <div class="cyan-bar">
+    </div>
     <div class="container">
-      <div class="row">
+      <div class="info-comic row">
         <div class="col-lg-8">
           <h3>{{ $comic['title'] }}</h3>
           <div class="row">
@@ -21,10 +23,10 @@
             <div class="col-lg-3">
               <p>Check Availability</p>
             </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <p>{{ $comic['description'] }}</p>
-              </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <p>{{ $comic['description'] }}</p>
             </div>
           </div>
         </div>

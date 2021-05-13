@@ -118,6 +118,22 @@ main#home-main div#current-series {
   padding: 6px;
 }
 
+main#detail {
+  position: relative;
+  z-index: 1;
+  color: #464646;
+  background-color: #fff;
+}
+main#detail .image {
+  position: absolute;
+  left: 194px;
+  top: -235px;
+  border: 1px solid #fff;
+}
+main#detail .cyan-bar {
+  height: 70px;
+  background-color: #0282f9;
+}
 footer p {
   margin-bottom: 0;
 }
