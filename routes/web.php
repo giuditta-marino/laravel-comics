@@ -14,7 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $database = config('comics');
-
-    return view('home')->with('comics', $database);
+  return view('home')->with('comics', config('comics')); //inserisco nella view della home il comics.php che si trova in config e gli assegno nome comics che potrò usare per ciclarlo
 })->name('home');
+
+Route::get('/single/{id}', function ($id) {
+  $comics=config('comics');
+  return view('single')->with('comic', $comics[$id]);
+})->name('detail');

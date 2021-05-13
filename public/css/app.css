@@ -58,13 +58,31 @@ header .jumbo {
   height: 305px;
   background-image: url("../images/jumbotron.jpg");
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-position: top;
 }
 
-main .main-top .comic .image {
+main#home-main {
+  background-color: #000;
+  color: #fff;
+  padding-top: 40px;
+  text-transform: uppercase;
+}
+main#home-main .main-top a {
+  color: #fff;
+}
+main#home-main .main-top .comic .image {
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-position: top;
   height: 160px;
+}
+main#home-main .main-top .comic .text {
+  padding-top: 14px;
+}
+main#home-main button {
+  background-color: #0282f9;
+  text-transform: uppercase;
+  padding: 5px 43px;
+  border: 0;
+  color: #fff;
+  font-weight: 700;
 }

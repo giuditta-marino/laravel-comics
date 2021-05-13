@@ -1,10 +1,29 @@
-main{
+main#home-main{
+  background-color: #000;
+  color: $white;
+  padding-top: 40px;
+  text-transform: uppercase;
   .main-top{
+    a{
+      color: $white;
+    }
     .comic{
       .image{
-        @include background-cover;
+        background-size: cover;
+        background-position: top;
         height: 160px;
-      }    
+      }
+      .text{
+        padding-top: 14px;
+      }
     }
+  }
+  button{
+    background-color: $cyan;
+    text-transform: uppercase;
+    padding: 5px 43px;
+    border: 0;
+    color: $white;
+    font-weight: 700;
   }
 }
