@@ -1,0 +1,51 @@
+footer{
+  p{
+    margin-bottom: 0;
+  }
+  .footer-top{
+    position: relative;
+    color: $white;
+    padding: 36px 0;
+    background-image: url('/images/footer-bg.jpg');
+    @include background-cover;
+
+    .lists{
+      ul{
+        padding: 7px 0;
+        a{
+          color: $lightgreytext;
+          font-size: 0.7em;
+        }
+      }
+
+      h6{
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.1em;
+      }
+    }
+
+    .copyright{
+      padding-top: 7px;
+      font-size: 0.7em;
+      p{
+        color: $lightgreytext;
+      }
+      a{
+        color: $cyan;
+      }
+    }
+    img{
+      position: absolute;
+      right: 143px;
+      top: -36px;
+      width: 520px;
+    }
+  }
+
+  .footer-bottom{
+    position: relative;
+    z-index: 1;
+    background-color: red;
+  }
+}

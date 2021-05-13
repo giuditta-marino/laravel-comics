@@ -91,3 +91,49 @@ main#home-main button {
   color: #fff;
   font-weight: 700;
 }
+
+footer p {
+  margin-bottom: 0;
+}
+footer .footer-top {
+  position: relative;
+  color: #fff;
+  padding: 36px 0;
+  background-image: url("/images/footer-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+footer .footer-top .lists ul {
+  padding: 7px 0;
+}
+footer .footer-top .lists ul a {
+  color: #959595;
+  font-size: 0.7em;
+}
+footer .footer-top .lists h6 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+footer .footer-top .copyright {
+  padding-top: 7px;
+  font-size: 0.7em;
+}
+footer .footer-top .copyright p {
+  color: #959595;
+}
+footer .footer-top .copyright a {
+  color: #0282f9;
+}
+footer .footer-top img {
+  position: absolute;
+  right: 143px;
+  top: -36px;
+  width: 520px;
+}
+footer .footer-bottom {
+  position: relative;
+  z-index: 1;
+  background-color: red;
+}
