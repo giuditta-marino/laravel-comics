@@ -8,6 +8,9 @@
 <main id="home-main">
   <div class="main-top">
     <div class="container">
+      <div id="current-series" class="text-center">
+        current series
+      </div>
       <div class="row">
         @foreach ($comics as $key=> $comic)
 

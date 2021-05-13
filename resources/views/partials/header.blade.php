@@ -5,7 +5,7 @@
         <div class="col-lg-4 offset-lg-8">
           <ul class="no-style">
             <li><a href="#">dc powersm visa</a></li>
-            <li><a href="#">additional dc sites</a></li>
+            <li><a href="#">additional dc sites <span class="caret-down">&#9660;</span></a></li>
           </ul>
         </div>
       </div>
@@ -30,9 +30,12 @@
               <li><a href="#">videos</a></li>
               <li><a href="#">fans</a></li>
               <li><a href="#">news</a></li>
-              <li><a href="#">shop</a></li>
+              <li><a href="#">shop <span class="caret-down">&#9660;</span> </a></li>
             </ul>
-            <input type="text" name="" value="" placeholder="Search &#128269;">
+            <div class="input">
+              <input type="text" name="" value="" placeholder="Search">
+              <i class="fas fa-search"></i>
+            </div>
           </div>
         </div>
       </nav>

@@ -61,10 +61,10 @@
   <div class="footer-bottom">
     <div class="container">
       <div class="row">
-        <div class="col lg-6 text-left">
+        <div class="sign-up col lg-6 text-left">
           <button type="button" name="button">sign-up now!</button>
         </div>
-        <div class="col-lg-6 text-right">
+        <div class="socials col-lg-6 text-right">
           <ul class="no-style">
             <li id="follow"><a href="#">follow us</a></li>
             <li class="icons"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
