@@ -137,6 +137,8 @@ footer .footer-bottom {
   z-index: 1;
   background-color: #303030;
   padding: 35px 0;
+  display: flex;
+  justify-content: flex-end;
 }
 footer .footer-bottom button {
   color: #fff;
@@ -152,7 +154,24 @@ footer .footer-bottom ul {
   align-items: center;
   justify-content: flex-end;
 }
+footer .footer-bottom ul li.icons {
+  margin-right: 15px;
+  background-color: #959595;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .footer-bottom ul li.icons a {
+  color: #303030;
+}
 footer .footer-bottom ul li#follow {
+  margin-right: 20px;
+}
+footer .footer-bottom ul li#follow a {
   text-transform: uppercase;
+  font-size: 1.2em;
   color: #0282f9;
 }

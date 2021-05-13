@@ -66,12 +66,12 @@
         </div>
         <div class="col-lg-6 text-right">
           <ul class="no-style">
-            <li><a href="#" id="follow">follow us</a></li>
-            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-            <li><a href="#"><i class="fas fa-map-marker-alt"></i></a></li>
+            <li id="follow"><a href="#">follow us</a></li>
+            <li class="icons"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="icons"><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li class="icons"><a href="#"><i class="fab fa-youtube"></i></a></li>
+            <li class="icons"><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+            <li class="icons"><a href="#"><i class="fas fa-map-marker-alt"></i></a></li>
           </ul>
         </div>
       </div>
