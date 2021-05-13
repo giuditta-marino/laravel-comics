@@ -62,8 +62,9 @@
             <div class="written row">
               <div class="col-lg-4">
                 <span>Written by:</span>
-
-                <span></span>
+                @foreach ($comic['writers'] as $writer)
+                <span>{{ $writer}}</span>
+                @endforeach
                 </div>
               <div class="col-lg-8"></div>
             </div>
