@@ -135,5 +135,24 @@ footer .footer-top img {
 footer .footer-bottom {
   position: relative;
   z-index: 1;
-  background-color: red;
+  background-color: #303030;
+  padding: 35px 0;
+}
+footer .footer-bottom button {
+  color: #fff;
+  background-color: transparent;
+  border: 3px solid #0282f9;
+  padding: 11px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+}
+footer .footer-bottom ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+footer .footer-bottom ul li#follow {
+  text-transform: uppercase;
+  color: #0282f9;
 }

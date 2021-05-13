@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section ('title')
+<title>Comic</title>
+@endsection
+
 @section('content')
   <main id="detail">
     <div class="image">

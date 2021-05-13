@@ -59,20 +59,22 @@
     <img src="/images/dc-logo-bg.png" alt="">
   </div>
   <div class="footer-bottom">
-    <div class="col lg-6">
-      <div class="col-lg-4">
-        <button type="button" name="button">sign-up now!</button>
+    <div class="container">
+      <div class="row">
+        <div class="col lg-6 text-left">
+          <button type="button" name="button">sign-up now!</button>
+        </div>
+        <div class="col-lg-6 text-right">
+          <ul class="no-style">
+            <li><a href="#" id="follow">follow us</a></li>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+            <li><a href="#"><i class="fas fa-map-marker-alt"></i></a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div class="col-lg-4 offset-lg-1">
-      <ul class="no-style">
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-      </ul>
     </div>
   </div>
 </footer>
