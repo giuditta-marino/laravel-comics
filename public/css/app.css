@@ -128,16 +128,23 @@ main#detail .image-comic {
   top: -235px;
   border: 1px solid #fff;
 }
+main#detail .cyan-bar {
+  height: 80px;
+  background-color: #0282f9;
+}
 main#detail .main-top {
   color: #464646;
   background-color: #fff;
 }
-main#detail .main-top .cyan-bar {
-  height: 70px;
-  background-color: #0282f9;
-}
 main#detail .main-top .container {
   padding-top: 55px;
+}
+main#detail .main-top .container .info-comic {
+  padding-bottom: 55px;
+}
+main#detail .main-top .container .info-comic div[class^=col-] {
+  padding-left: 0;
+  padding-right: 0;
 }
 main#detail .main-top .container .info-comic h3 {
   color: #003f5e;

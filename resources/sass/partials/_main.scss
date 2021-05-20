@@ -53,18 +53,25 @@ main#detail{
     border: 1px solid $white;
   }
 
+  .cyan-bar{
+    height: 80px;
+    background-color: $cyan;
+  }
+
   .main-top{
     color: $greytext;
     background-color: $white;
 
-      .cyan-bar{
-        height: 70px;
-        background-color: $cyan;
-      }
       .container{
         padding-top: 55px;
 
         .info-comic{
+          padding-bottom: 55px;
+          div[class^="col-"]{
+            padding-left: 0;
+            padding-right: 0;
+          }
+
           h3{
             color: $petrol;
             font-size: 2em;
@@ -111,6 +118,7 @@ main#detail{
         }
 
         .description{
+
           p{
             color: $lightgreytext;
           }
