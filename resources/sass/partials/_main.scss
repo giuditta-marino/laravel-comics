@@ -1,3 +1,4 @@
+// MAIN DELLA PAGINA HOME
 main#home-main{
   position: relative;
   z-index: 1;
@@ -42,6 +43,7 @@ main#home-main{
   }
 }
 
+// MAIN DELLE PAGINE DETTAGLIO
 main#detail{
   position: relative;
   z-index: 1;
@@ -67,7 +69,7 @@ main#detail{
 
         .info-comic{
           padding-bottom: 55px;
-          div[class^="col-"]{
+          div[class*="col-"]{
             padding-left: 0;
             padding-right: 0;
           }
@@ -77,6 +79,7 @@ main#detail{
             font-size: 2em;
             font-weight: 700;
             text-transform: uppercase;
+            padding-bottom: 10px;
           }
           .green-bar{
             @include flex-align-center;
@@ -107,6 +110,11 @@ main#detail{
               border-right: 1px solid $bordergreen;
               padding: 10px;
              }
+
+            .left{
+              padding-left: 22px;
+              padding-right: 22px;
+            }
           }
 
           .advertisement{
@@ -118,6 +126,7 @@ main#detail{
         }
 
         .description{
+          padding-top: 14px;
 
           p{
             color: $lightgreytext;
@@ -128,6 +137,75 @@ main#detail{
 
   .main-bottom{
     background-color: $lightgrey;
+    border-top: 1px solid $greylines;
+    color: $lightgreytext;
+    padding-top: 30px;
+
+    .credits{
+      padding-bottom: 115px;
+      h4{
+        color: $petrol;
+        font-size: 1.7em;
+        font-weight: 600;
+        padding-bottom: 15px;
+      }
+      p{
+        color: $petrol;
+      }
+      a{
+        color: $cyantext;
+      }
+      span{
+        color: $lightgreytext;
+      }
+
+      div[class*="row"]{
+        border-top: 1px solid $greylines;
+        padding: 6px 0;
+      }
+      .art{
+        color: $petrol;
+      }
+
+      .talent{
+        padding-right: 35px;
+        .written{
+          border-bottom: 1px solid $greylines;
+        }
+      }
+      .specs{
+        padding-left: 35px;
+        .sale{
+          border-bottom: 1px solid $greylines;
+        }
+      }
+    }
+
+    .links{
+      border-top: 1px solid $greylines;
+      padding: 15px 0;
+
+      .dc, .shop, .locator, .subscriptions{
+        display: flex;
+        justify-content: space-around;
+        border-left: 1px solid $greylines;
+
+        .image{
+          height: 50px;
+          img{
+            height: 100%;
+            filter: brightness(80%);
+          }
+        }
+
+        .text{
+          a{
+            color: $lightgreytext;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
   }
 
 }

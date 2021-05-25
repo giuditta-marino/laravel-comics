@@ -142,7 +142,7 @@ main#detail .main-top .container {
 main#detail .main-top .container .info-comic {
   padding-bottom: 55px;
 }
-main#detail .main-top .container .info-comic div[class^=col-] {
+main#detail .main-top .container .info-comic div[class*=col-] {
   padding-left: 0;
   padding-right: 0;
 }
@@ -151,6 +151,7 @@ main#detail .main-top .container .info-comic h3 {
   font-size: 2em;
   font-weight: 700;
   text-transform: uppercase;
+  padding-bottom: 10px;
 }
 main#detail .main-top .container .info-comic .green-bar {
   display: flex;
@@ -182,15 +183,82 @@ main#detail .main-top .container .info-comic .green-bar .flex {
   border-right: 1px solid #357739;
   padding: 10px;
 }
+main#detail .main-top .container .info-comic .green-bar .left {
+  padding-left: 22px;
+  padding-right: 22px;
+}
 main#detail .main-top .container .info-comic .advertisement p {
   color: #959595;
   margin-bottom: 3px;
+}
+main#detail .main-top .container .description {
+  padding-top: 14px;
 }
 main#detail .main-top .container .description p {
   color: #959595;
 }
 main#detail .main-bottom {
   background-color: #f6f6f6;
+  border-top: 1px solid #e3e3e3;
+  color: #959595;
+  padding-top: 30px;
+}
+main#detail .main-bottom .credits {
+  padding-bottom: 115px;
+}
+main#detail .main-bottom .credits h4 {
+  color: #003f5e;
+  font-size: 1.7em;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+main#detail .main-bottom .credits p {
+  color: #003f5e;
+}
+main#detail .main-bottom .credits a {
+  color: #00a9df;
+}
+main#detail .main-bottom .credits span {
+  color: #959595;
+}
+main#detail .main-bottom .credits div[class*=row] {
+  border-top: 1px solid #e3e3e3;
+  padding: 6px 0;
+}
+main#detail .main-bottom .credits .art {
+  color: #003f5e;
+}
+main#detail .main-bottom .credits .talent {
+  padding-right: 35px;
+}
+main#detail .main-bottom .credits .talent .written {
+  border-bottom: 1px solid #e3e3e3;
+}
+main#detail .main-bottom .credits .specs {
+  padding-left: 35px;
+}
+main#detail .main-bottom .credits .specs .sale {
+  border-bottom: 1px solid #e3e3e3;
+}
+main#detail .main-bottom .links {
+  border-top: 1px solid #e3e3e3;
+  padding: 15px 0;
+}
+main#detail .main-bottom .links .dc, main#detail .main-bottom .links .shop, main#detail .main-bottom .links .locator, main#detail .main-bottom .links .subscriptions {
+  display: flex;
+  justify-content: space-around;
+  border-left: 1px solid #e3e3e3;
+}
+main#detail .main-bottom .links .dc .image, main#detail .main-bottom .links .shop .image, main#detail .main-bottom .links .locator .image, main#detail .main-bottom .links .subscriptions .image {
+  height: 50px;
+}
+main#detail .main-bottom .links .dc .image img, main#detail .main-bottom .links .shop .image img, main#detail .main-bottom .links .locator .image img, main#detail .main-bottom .links .subscriptions .image img {
+  height: 100%;
+  filter: brightness(80%);
+}
+main#detail .main-bottom .links .dc .text a, main#detail .main-bottom .links .shop .text a, main#detail .main-bottom .links .locator .text a, main#detail .main-bottom .links .subscriptions .text a {
+  color: #959595;
+  text-transform: uppercase;
 }
 
 footer p {
