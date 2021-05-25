@@ -96,7 +96,7 @@
                 <p>Series:</p>
               </div>
               <div class="list col-lg-8">
-                <a href="#">{{ $comic['series'] }}</a>
+                <a href="#" id="series-title">{{ $comic['series'] }}</a>
               </div>
             </div>
             <div class="price row">
@@ -118,6 +118,12 @@
           </div>
 
         </div>
+
+      </div>
+    </div>
+
+    <div class="ctas">
+      <div class="container">
         <div class="links row">
           <div class="col-lg-3">
             <div class="dc">

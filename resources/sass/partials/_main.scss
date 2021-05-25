@@ -158,6 +158,9 @@ main#detail{
       span{
         color: $lightgreytext;
       }
+      #series-title{
+        text-transform: uppercase;
+      }
 
       div[class*="row"]{
         border-top: 1px solid $greylines;
@@ -180,12 +183,23 @@ main#detail{
         }
       }
     }
+  }
+
+  .ctas{
+    background-color: $lightgrey;
+    border-top: 1px solid $greylines;
 
     .links{
-      border-top: 1px solid $greylines;
-      padding: 15px 0;
+      div[class*="col-"]{
+        padding: 0;
+      }
+
+      .subscriptions{
+        border-right: 1px solid $greylines;
+      }
 
       .dc, .shop, .locator, .subscriptions{
+        padding: 15px 0;
         display: flex;
         justify-content: space-around;
         border-left: 1px solid $greylines;

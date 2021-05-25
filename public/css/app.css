@@ -221,6 +221,9 @@ main#detail .main-bottom .credits a {
 main#detail .main-bottom .credits span {
   color: #959595;
 }
+main#detail .main-bottom .credits #series-title {
+  text-transform: uppercase;
+}
 main#detail .main-bottom .credits div[class*=row] {
   border-top: 1px solid #e3e3e3;
   padding: 6px 0;
@@ -240,23 +243,30 @@ main#detail .main-bottom .credits .specs {
 main#detail .main-bottom .credits .specs .sale {
   border-bottom: 1px solid #e3e3e3;
 }
-main#detail .main-bottom .links {
+main#detail .ctas {
+  background-color: #f6f6f6;
   border-top: 1px solid #e3e3e3;
-  padding: 15px 0;
 }
-main#detail .main-bottom .links .dc, main#detail .main-bottom .links .shop, main#detail .main-bottom .links .locator, main#detail .main-bottom .links .subscriptions {
+main#detail .ctas .links div[class*=col-] {
+  padding: 0;
+}
+main#detail .ctas .links .subscriptions {
+  border-right: 1px solid #e3e3e3;
+}
+main#detail .ctas .links .dc, main#detail .ctas .links .shop, main#detail .ctas .links .locator, main#detail .ctas .links .subscriptions {
+  padding: 15px 0;
   display: flex;
   justify-content: space-around;
   border-left: 1px solid #e3e3e3;
 }
-main#detail .main-bottom .links .dc .image, main#detail .main-bottom .links .shop .image, main#detail .main-bottom .links .locator .image, main#detail .main-bottom .links .subscriptions .image {
+main#detail .ctas .links .dc .image, main#detail .ctas .links .shop .image, main#detail .ctas .links .locator .image, main#detail .ctas .links .subscriptions .image {
   height: 50px;
 }
-main#detail .main-bottom .links .dc .image img, main#detail .main-bottom .links .shop .image img, main#detail .main-bottom .links .locator .image img, main#detail .main-bottom .links .subscriptions .image img {
+main#detail .ctas .links .dc .image img, main#detail .ctas .links .shop .image img, main#detail .ctas .links .locator .image img, main#detail .ctas .links .subscriptions .image img {
   height: 100%;
   filter: brightness(80%);
 }
-main#detail .main-bottom .links .dc .text a, main#detail .main-bottom .links .shop .text a, main#detail .main-bottom .links .locator .text a, main#detail .main-bottom .links .subscriptions .text a {
+main#detail .ctas .links .dc .text a, main#detail .ctas .links .shop .text a, main#detail .ctas .links .locator .text a, main#detail .ctas .links .subscriptions .text a {
   color: #959595;
   text-transform: uppercase;
 }
